@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+</head>
+<body>
+    <h1>Formulir Registrasi Pendaftaran Eskul</h1>
+    <form action="">
+        <fieldset>
+            <legend>Form Registrasi</legend>
+            <label for="username">Username</label>
+        <input type="text" placeholder="masukkan nama lengkap kamu">
+        <p>
+        <label for="password">Password</label>
+        <input type="password">
+        </p>
+        <p>
+        <label for="email">Email</label>
+        <input type="email">
+        </p>
+        <p>
+            <label for="umur">Umur</label>
+            <input type="number">
+        </p>
+        <p>
+            <label for="TL">Tanggal Lahir</label>
+            <input type="date">
+            <label for="waktu">Waktu lahir</label>
+            <input type="time">
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+        <p>
+            <label for="jenis-kelamin">Jenis Kelamin</label>
+            <br>
+            <label for="perempuan"><input type="radio" id="perempuan" name="jenis-kelamin">Perempuan</label>
+            <label for="perempuan"><input type="radio" id="laki-laki" name="jenis-kelamin">Laki-laki</label>
+        </p>
+        <p>
+            <label for="hobi">Pilihan Eskul</label>
+            <br>
+            <label for="Robotik"><input type="checkbox" id="Robotik" name="hobi">Robotik</label>
+            <label for="Coding"><input type="checkbox" id="Coding" name="hobi">Coding</label>
+            <label for="Memanah"><input type="checkbox" id="Memanah" name="hobi">Memanah</label>
+        </p>
+        <p>
+            <label for="alasan">Alasan</label>
+            <textarea name="" id="" placeholder="alasan join eskul tersebut" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="alamat">Alamat</label>
+            <select name="alamat" id="">
+                <option value="jawa barat">Jawa Barat</option>
+                <option value="jawa tengah">Jawa Tengah</option>
+                <option value="jawa timur" selected>Jawa Timur</option>
+            </select>
+        </p>
+        </fieldset>
+    </form>
+    <form action="" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Form Pengiriman Foto</legend>
+            <label for="foto">Foto terbaru</label>
+            <input type="file">
+            <br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
